@@ -1,0 +1,47 @@
+Fixture analysis.FixtureAnalysis8_1
+
+Home and Away position count. Row number = index.
+Counts of 1 are expected. They occur when the team number is only Home (or Away) once on that table in a single round robin fixture.
+Counts of non 1 in a round robin fixture:  15
+4	3	0	0	0	0	0	0
+0	1	1	1	1	1	1	1
+1	0	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+1	0	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+1	0	1	1	1	1	1	1
+0	1	1	1	1	1	1	1
+
+
+
+Match/Table count. Row number = index.
+Counts of 3 or 4 are expected. They occur when the team numbers plays on that table in a double round robin fixture.
+Counts of non 3 or 4 in a double round robin fixture:  11
+14	0	0	0
+2	4	4	4
+2	4	4	4
+2	4	4	4
+2	4	4	4
+2	4	4	4
+2	4	4	4
+2	4	4	4
+
+
+
+Home and Away vertical sequence for each team number.
+Runs of 3: 2
+H	.	H	.	H	.	H	.
+.	H	.	H	.	H	H	.
+H	.	H	.	H	.	.	H
+.	H	.	H	H	.	H	.
+H	.	H	.	.	H	.	H
+.	H	H	.	H	.	H	.
+H	.	.	H	.	H	.	H
+.	H	.	H	.	H	.	H
+H	.	H	.	H	.	.	H
+.	H	.	H	.	H	H	.
+H	.	H	.	.	H	.	H
+.	H	.	H	H	.	H	.
+H	.	.	H	.	H	.	H
+.	H	H	.	H	.	H	.
+
