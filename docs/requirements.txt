@@ -1,0 +1,7 @@
+sphinx
+sphinx_rtd_theme
+sphinx-copybutton
+
+# useful sphinx extensions
+sphinx-design
+sphinx-togglebutton
